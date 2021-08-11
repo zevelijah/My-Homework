@@ -24,6 +24,7 @@ print(pla)
 # %%
 # problem 1.6
 # letters only
+print("space")
 def stringCompression(string):
     stand = None
     count = 0
@@ -39,7 +40,7 @@ def stringCompression(string):
                 newString = newString + f"{ stand }{ count }"
                 stand = let
                 count = 1
-            if f == len(string)-1:
+            if f == len(string):
                 newString = newString + f"{ stand }{ count }" 
         else:
             count += 1
@@ -55,6 +56,7 @@ print(compresed)
 print(other)
 # %%
 # FOR CHEMISTRY
+print("space")
 def molesPerKilo(kilos, a, am, b, bm, c, cm):
     grams = kilos * 1000
     aam = a * am + b * bm + c * cm
